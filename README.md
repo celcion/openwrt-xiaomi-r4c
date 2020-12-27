@@ -29,7 +29,7 @@ After that you'll have `target` directory with your customized OpenWRT image.
 
 ### Flashing OpenWRT firmware to router
 
-Before flashing the router, you need to go through initial setup (if you haven't done that already) and set your password at the beginning of the [router.rb](router.rb) file. Then, run the following command:
+Before flashing the router, you need to go through initial setup (if you haven't done that already) and set your password at the beginning of the [router.rb](router.rb) file. You also need to set the router IP address in case you changed the default IP from `192.168.31.1` to something else. Then, run the following command:
 
 ```console
 $ docker run --rm -ti -v $(pwd):/flash ruby:2.7-alpine sh -c "cd /flash && ruby router.rb"
