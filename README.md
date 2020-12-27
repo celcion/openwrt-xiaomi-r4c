@@ -10,7 +10,7 @@ It's highly possible that there won't be any further updates of this repository 
 
 ### Requirements
 
-I hate when doing simple things requires you to install a crapload of dependencies. So, I managed to narrow it down to just two dependencies - Linux and Docker.
+I hate when doing simple things requires you to install a crapload of dependencies. So, I managed to narrow it down to just two dependencies - Linux and Docker. So, you need:
 
 * Some modern Linux with latest Docker installed
 * Some modern web browser to work with router's web UI
